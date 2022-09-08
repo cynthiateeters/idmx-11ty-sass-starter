@@ -1,0 +1,16 @@
+/* home */
+@use "../abstracts/variables" as var;
+@use "../base/typography" as type;
+
+body {
+  font-family: type.$font;
+  background-color: var.$bg-very-light;
+  width: min(100% - 2rem, 60ch);
+  margin-inline: auto;
+  margin-block: 4rem;
+}
+
+h1 {
+  color: var.$primary-color;
+  text-align: center;
+}
